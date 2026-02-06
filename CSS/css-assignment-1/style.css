@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    row-gap: 10px;
+}
+
+.image{
+     display: grid;
+    justify-content:center ;
+    align-items:center ;
+}
+
+.caption{
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.head{
+    font-family:Calibri;
+    display: grid;
+    justify-content: center;
+}
+
+.date{
+    display: grid;
+    justify-content: center;
+}
+
+.details{
+    font-size: 30px;
+    display: grid;
+    /* justify-content:center; */
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    align-items: center;
+}

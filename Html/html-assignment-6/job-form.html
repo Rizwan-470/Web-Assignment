@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for a Job</title>
+</head>
+<body>
+    <form action=""> 
+        <h2 style="font-family: calibri;">Job Application Form</h2>
+        <b style="font-family:Calibri;">Personal Information:</b> 
+        <fieldset style="width: 50%;">
+            <label for="name" style="font-family: calibri;">Full Name:</label>
+            <input type="text" placeholder="enter your name" style="font-family: calibri;" required>
+            <br><br>
+
+            <label for="email" style="font-family: calibri;">Email:</label>
+            <input type="email" placeholder="@gmail.com" style="font-family: calibri;" required>
+            <br><br>
+
+            <label for="phone number" style="font-family: calibri;">Phone Number</label>
+            <input type="number" placeholder="0300-1234567" style="font-family: calibri;" required>
+            <br><br>
+
+            <label for="Website or Portfolio:" style="font-family: calibri;">Website or Portfolio:</label>
+            <input type="url" placeholder="URL" style="font-family: calibri;">
+            <br><br>
+
+            <label for="Date of Birth:" style="font-family: calibri;">Date of Birth:</label>
+            <input type="date" required>
+        </fieldset>
+        <br>
+
+        <b>Job Details:</b>
+        <fieldset style="width: 50%;"> <b>Job Position:</b>
+            <select name="Job Position" id="Job Position">Job Position
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="UI/UX Designer">UI/UX Designer</option>
+            <option value="QA Engineer">QA Engineer</option>
+            </select>
+            <br>
+
+            <br>
+            <label for="Location"> <b>Preferred Work Location:</b></label> <br>
+            <input type="radio" name="Location">On-site <br>
+            <input type="radio" name="Location">Remote <br>
+            <input type="radio" name="Location">Hybrid <br>
+            <br>
+
+            <label for="Skills"><b>Skills:</b></label> <br>
+            <input type="checkbox" name="Skills" value="HTML">HTML <br>
+            <input type="checkbox" name="Skills" value="CSS">CSS <br>
+            <input type="checkbox" name="Skills" value="JavaScript">JavaScript <br>
+            <input type="checkbox" name="Skills" value="React">React <br>
+            <input type="checkbox" name="Skills" value="Node.js">Node.js <br>
+
+            <label for="Resume"> <b>Resume:</b></label>
+            <input type="file"> file size maximum 300kb
+            <br><br>
+
+            <label for="Write about yourself" style="font-weight: bold;" font-family="calibri">Write about yourself:</label><br>
+            <textarea
+                    placeholder="multi-line textarea"
+                    rows="10"
+                    cols="80"></textarea>
+        </fieldset>
+        <br>
+
+        <b>Extra Section:</b>
+        <fieldset style="width: 50%;">
+            <search>
+                <label for=""><b>Search your favorite tech stack:</b></label>
+                <input type="search">
+                <button>search</button>
+            </search>
+            <br>
+            <label for="Passowrd">Password:</label>
+            <input type="password" placeholder="enter passowrd">
+            <br>
+            <label for="Passowrd"> Confirm Password:</label>
+            <input type="confirm password" placeholder="re-enter passowrd">
+        </fieldset>
+        <br><br>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</body>
+</html>
