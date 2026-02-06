@@ -21,14 +21,12 @@ console.log(paraghraph[0]);
 
 
 
-
 // Task 3: Select Elements by Class Name
 
 let button = document.getElementsByClassName("userbtn");
 button[1].textContent = "Click me";
 
 console.log(button[1]);
-
 
 
 
@@ -40,7 +38,6 @@ console.log(head2);
 
 
 
-
 // Task 5: Use querySelectorAll
 let listItems = document.querySelectorAll("li");
 listItems.forEach(function (item) {
@@ -48,7 +45,6 @@ listItems.forEach(function (item) {
 });
 
 console.log(listItems);
-
 
 
 
