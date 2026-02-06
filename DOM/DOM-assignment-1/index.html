@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment 1</title>
+    <script defer src="script.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            margin: 20px;
+
+        }
+
+        button {
+            margin: 10px;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            /* border: none; */
+            background-color: #9fc2a7;
+            font-size: 16px;
+            font-weight: bold;
+
+        }
+
+        input {
+            padding: 6px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 id="heading">Hello World</h1>
+    
+    <p id="para">This is a paraghraph</p>
+    <button id="changePara">Change para</button>
+    
+    
+
+    <button id="lightblue" onclick="lightblue()">Change Bg color</button>
+    
+    
+
+    <button onclick="showAlert()">Show Alert</button>
+    
+    
+
+    <input type="text" id="userInput" placeholder="Enter some text">
+    
+    <button onclick="updateText()">Update Text</button>
+
+    <p id="outputText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. corporis et quisquam harum facilis error dignissimos aliquid ab?</p>
+
+</body>
+</html>
